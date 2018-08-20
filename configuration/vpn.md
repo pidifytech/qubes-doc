@@ -74,9 +74,9 @@ Set up a ProxyVM as a VPN gateway using the *qubes-tunnel* service
 
 This method has extended anti-leak features that also make the connection _fail closed_ should it be interrupted. It also has the advantage of using configuration files tailored by your VPN service provider so it may be the easiest way to setup a working and secure link.
 
-The following has been tested with OpenVPN on Fedora 26, Debian 8, and Debian 9 templates:
+The following has been tested with OpenVPN on Fedora 28 and Debian 9 templates:
 
-1. Create a new VM, name it, click the ProxyVM radio button, and choose a color and template.
+1. Create a new VM, name it, click the "ProxyVM" radio button (Qubes 3.2) or "provides network" checkbox (Qubes 4.0), and choose a color and template.
 
    ![Create\_New\_VM.png](/attachment/wiki/VPN/Create_New_VM.png)
 
